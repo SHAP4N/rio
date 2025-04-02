@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex: 1;
+}
+
+.message-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.message-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #4fa8c7;
+}
+
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  background-color: white;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+} 
